@@ -47,7 +47,20 @@ Route::get('/inquiry', function() {
 	return view('inquiry');
 });
 
-Route::post('/success', function(\Illuminate\Http\Request $request) {
+Route::post('/success', function(\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer) {
+
+	$mailer
+		->to($request->input('email'))
+		->send(new \App\Mail\mymail($request->input('c1'),
+									$request->input('c2'),
+									$request->input('r1'),
+									$request->input('name'),
+									$request->input('country'),
+									$request->input('email'),
+									$request->input('phone'),
+									$request->input('company'),
+									$request->input('industry'),
+									$request->input('desc')));
 	return view('inquiry_success');
 })->name('sendmail');
 

@@ -37,7 +37,7 @@
 </div>
 <br>
 <div class="row">
-	<form class="form-inline mx-auto" id="inquiry" method="post" action="/success">
+	<form class="form-inline mx-auto" id="inquiry" method="post" action="/success" enctype="multipart/form-data">
 		<input type="hidden" name="_token" value=" <?php $s = csrf_token(); echo "$s";?> "  form="inquiry">
 		<div class="form-group form-check extra-fg">
 			<input type="checkbox" name="c1" id="c1" value="App Development" class="big-checkbox form-check-input ">
@@ -54,7 +54,11 @@
 <div class="col-md-8 mx-auto">
 	<div class="md-form form-group mx-auto">
 		<i class="fa fa-pencil prefix"></i>
-	    <textarea class="md-textarea" type ="text" id="desc" placeholder="Tell us more about your project" form="inquiry"></textarea>
+	    <textarea class="md-textarea" type ="text" id="desc" name="desc" placeholder="Tell us more about your project" form="inquiry"></textarea>
+	</div>
+	<div class="md-form form-group mx-auto">
+		<i class="fa fa-file prefix"></i>
+	    <input class="form-control-file" type ="file" id="attach" name="attachment" placeholder="Upload relevant files" form="inquiry">
 	</div>
 </div>
 <br><br>
@@ -119,7 +123,7 @@
 	<div class="col-md-4">
 		<div class="md-form form-group">
 			<i class="fa fa-industry prefix"></i>
-			<input type="text" name="Industry" id="industry" placeholder="Please enter your Industry" class="form-control text-center" form="inquiry">
+			<input type="text" name="industry" id="industry" placeholder="Please enter your Industry" class="form-control text-center" form="inquiry">
 		</div>
 	</div>
 	<div class="col-md-2"></div>
@@ -143,12 +147,12 @@
 <div class="row">
 	<form class="form-inline mx-auto" id="inquiry">
 		<div class="form-group form-check extra-fg">
-			<input type="checkbox" name="c3" id="c3" value="Fixed Price" class="big-checkbox form-check-input" form="inquiry">
+			<input type="radio" name="r1" id="c3" value="Fixed Price" class="big-checkbox form-check-input" form="inquiry">
 			<label for="c3" class="form-check-label"><h6>Fixed Price</h6></label>
 			
 		</div>
 		<div class="form-group form-check extra-fg">
-			<input type="checkbox" name="c4" id="c4" value="Hourly Based" class="big-checkbox form-check-input" form="inquiry">
+			<input type="radio" name="r1" id="c4" value="Hourly Based" class="big-checkbox form-check-input" form="inquiry">
 			<label for="c4" class="form-check"><h6>Hourly Based</h6></label>
 		</div>
 	</form>
@@ -157,12 +161,12 @@
 <div class="row">
 	<form class="form-inline mx-auto" id="inquiry">
 		<div class="form-group form-check extra-fg">
-			<input type="checkbox" name="c5" id="c5" value="Hire Developer" class="big-checkbox form-check-input" form="inquiry">
+			<input type="radio" name="r1" id="c5" value="Hire Developer" class="big-checkbox form-check-input" form="inquiry">
 			<label for="c5" class="form-check-label"><h6>Hire Developer</h6></label>
 			
 		</div>
 		<div class="form-group form-check extra-fg">
-			<input type="checkbox" name="c6" id="c6" value="I'm not sure" class="big-checkbox form-check-input" form="inquiry">
+			<input type="radio" name="r1" id="c6" value="I'm not sure" class="big-checkbox form-check-input" form="inquiry">
 			<label for="c6" class="form-check"><h6>Not sure</h6></label>
 		</div>
 	</form>
@@ -170,7 +174,7 @@
 <hr>
 <br><br>
 <div class="row">
-	<button class="btn btn-lg btn-primary mx-auto" type="submit" form="inquiry">Submit</button>
+	<button class="btn btn-lg btn-primary mx-auto" type="submit" form="inquiry" value="upload">Submit</button>
 </div>
 
 @stop
