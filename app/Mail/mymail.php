@@ -26,6 +26,7 @@ class mymail extends Mailable
     public $company;
     public $industry;
     public $desc;
+    public $file_dest;
 
     public function __construct($c1=null,
                                 $c2=null,
@@ -36,6 +37,7 @@ class mymail extends Mailable
                                 $phone,
                                 $company,
                                 $industry,
+                                $file_dest,
                                 $desc)
     {
         $this->c1 = $c1;
@@ -47,6 +49,7 @@ class mymail extends Mailable
         $this->phone = $phone;
         $this->company = $company;
         $this->industry = $industry;
+        $this->file_dest = $file_dest;
         $this->desc = $desc;
     }
 
@@ -58,6 +61,7 @@ class mymail extends Mailable
     public function build()
     {
         return $this->from('admin@appsinventory.com')
-        ->view('email.mail');
+        ->view('email.mail')
+        ->attach("$this->file_dest");
     }
 }

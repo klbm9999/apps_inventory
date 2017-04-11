@@ -40,7 +40,7 @@
 	                    	<h2 style="font-family: lithos" class="h2-responsive black-text">"We make android apps for your business"</h2>
 	                    </li>
 	                    <li>
-	                        <a target="_blank" href="#" class="btn btn-info btn-lg">Get Started</a>
+	                        <a href="/inquiry" class="btn btn-info btn-lg">Get Started</a>
 	                    </li>
 	                    <li>
 		                    <a href="http://www.freepik.com" class="small">Image Designed by Freepik</a>
@@ -67,7 +67,7 @@
 		                    	<h2 style="font-family: lithos" class="h2-responsive green-text">12+ sucessful projects</h2>
 		                    </li>
 		                    <li>
-		                        <a target="_blank" href="#" class="btn btn-info btn-lg">Get Started</a>
+		                        <a href="/inquiry" class="btn btn-info btn-lg">Get Started</a>
 		                    </li>
                             <li>
         	                    <a href="http://www.freepik.com" class="small">Image Designed by Sapann-Design / Freepik</a>
@@ -92,7 +92,7 @@
 		                    	<h2 style="font-family:lithos" class="h2-responsive black-text">We make apps with best design & with eye catchy icons</h2>
 		                    </li>
 		                    <li>
-		                        <a target="_blank" href="#" class="btn btn-info btn-lg">Get Started</a>
+		                        <a href="/inquiry" class="btn btn-info btn-lg">Get Started</a>
 		                    </li>
 		                    <li>
 		                    	<a href="http://www.freepik.com" class="small">Image Designed by Freepik</a>
@@ -116,7 +116,7 @@
 	                        	<h3 style="font-family: lithos" class="h3-responsive black-text">We do SEO like ASO that helps your app to reamin on TOP</h3>
 	                        </li>
 	                        <li>
-		                        <a target="_blank" href="#" class="btn btn-info btn-lg">Get Started</a>
+		                        <a href="/inquiry" class="btn btn-info btn-lg">Get Started</a>
 		                    </li>
 		                    <li>
 		                    	<a href="http://www.freepik.com" class="small">Designed by Freepik</a>
@@ -204,6 +204,7 @@
 	                <!--Text-->
 	                <p class="card-text">One of the most successful audio players available in play store</p>
 	                <a href="/music-player-1" class="btn btn-info">Details</a>
+	                <a href="/inquiry" class="btn btn-info">Inquiry</a>
 	            </div>
 	            <!--/.Card content-->
 
@@ -234,6 +235,7 @@
 	                <!--Text-->
 	                <p class="card-text">Most of users love it more than the default one in kindle.</p>
 	                <a href="/music-player-2" class="btn btn-info">Details</a>
+	                <a href="/inquiry" class="btn btn-info">Inquiry</a>
 	            </div>
 	            <!--/.Card content-->
 
@@ -263,7 +265,8 @@
 	                <h6 class="card-title">By Touchfield</h6>
 	                <!--Text-->
 	                <p class="card-text">Most useful app for people</p><br>
-	                <a href="/all-maths-formula" class="btn btn-info">Details</a>
+	                <a href="https://play.google.com/store/apps/details?id=com.touchfield.mathsformulasCalc" class="btn btn-info">Play Store</a>
+	                <a href="/inquiry" class="btn btn-info">Inquiry</a>
 	            </div>
 	            <!--/.Card content-->
 
@@ -294,6 +297,7 @@
 			        <!--Text-->
 			        <p class="card-text">With Wow teal material design</p><br>
 			        <a href="/apps-backup-and-reinstall" class="btn btn-info">Details</a>
+			        <a href="/inquiry" class="btn btn-info">Inquiry</a>
 			    </div>
 			    <!--/.Card content-->
 
@@ -319,6 +323,7 @@
 			        <!--Text-->
 			        <p class="card-text">Awesome material design app</p><br>
 			        <a href="/system-app-remover" class="btn btn-info">Details</a>
+			        <a href="/inquiry" class="btn btn-info">Inquiry</a>
 			    </div>
 			    <!--/.Card content-->
 
@@ -343,7 +348,8 @@
 			        <h6 class="card-title">By Sciencenext</h6>
 			        <!--Text-->
 			        <p class="card-text">Has more that 50k downloads worldwide and still counting</p>
-			        <a href="/root-checker" class="btn btn-info">Details</a>
+			        <a href="https://play.google.com/store/apps/details?id=com.scn.rootchecker" class="btn btn-info">Play Store</a>
+			        <a href="/inquiry" class="btn btn-info">Inquiry</a>
 			    </div>
 			    <!--/.Card content-->
 
@@ -407,8 +413,8 @@
 	                        <p class="lead green-text">100K+ installs and still counting
 	                    </li>
 	                    <li>
-	                        <a target="_blank" href="#" class="btn btn-default btn-lg">Details</a>
-	                        <a target="_blank" href="#" class="btn btn-info btn-lg">Inquiry</a>
+	                        <a href="/music-player-1" class="btn btn-default btn-lg">Details</a>
+	                        <a href="/inquiry" class="btn btn-info btn-lg">Inquiry</a>
 	                    </li>
 	                    <li>
 	                    	<a href="http://www.freepik.com" class="small">Background Designed by kues1 / Freepik</a>
@@ -439,8 +445,8 @@
 	                        <p class="lead green-text">50K+ installs and still counting</p>
 	                    </li>
 	                    <li>
-	                        <a target="_blank" href="#" class="btn btn-default btn-lg">Details</a>
-	                        <a target="_blank" href="#" class="btn btn-info btn-lg">Inquiry</a>
+	                        <a href="/apps-backup-and-reinstall" class="btn btn-default btn-lg">Details</a>
+	                        <a href="/inquiry" class="btn btn-info btn-lg">Inquiry</a>
 	                    </li>
 	                    <li>
 	                    	<a href="http://www.freepik.com" class="small">Background Designed by kues1 / Freepik</a>
@@ -470,8 +476,8 @@
 	                        <p class="lead green-text">More than 300K+ installs on Amazon app store <br>50K+ installs on Play store</p>
 	                    </li>
 	                    <li>
-	                        <a target="_blank" href="#" class="btn btn-default btn-lg">Details</a>
-	                        <a target="_blank" href="#" class="btn btn-info btn-lg">Inquiry</a>
+	                        <a href="/music-player-2" class="btn btn-default btn-lg">Details</a>
+	                        <a href="/inquiry" class="btn btn-info btn-lg">Inquiry</a>
 	                    </li>
 	                    <li>
 	                    	<a href="http://www.freepik.com" class="small">Background Designed by kues1 / Freepik</a>
@@ -500,8 +506,8 @@
 	                        <p class="lead green-text">100K+ installs and counting</p>
 	                    </li>
 	                    <li>
-	                        <a target="_blank" href="#" class="btn btn-default btn-lg">Details</a>
-	                        <a target="_blank" href="#" class="btn btn-info btn-lg">Inquiry</a>
+	                        <a href="/system-app-remover" class="btn btn-default btn-lg">Details</a>
+	                        <a href="/inquiry" class="btn btn-info btn-lg">Inquiry</a>
 	                    </li>
 	                    <li>
 	                    	<a href="http://www.freepik.com" class="small">Background Designed by kues1 / Freepik</a>

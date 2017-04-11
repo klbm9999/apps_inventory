@@ -26,6 +26,8 @@
 		border-radius: 3px;
 		min-width: 300px;
 		background-color: #eee;
+		/*align-items: left !important;*/
+		justify-content: left !important;
 	}
 	textarea {
 		min-height: 150px !important;
@@ -41,12 +43,12 @@
 		<input type="hidden" name="_token" value=" <?php $s = csrf_token(); echo "$s";?> "  form="inquiry">
 		<div class="form-group form-check extra-fg">
 			<input type="checkbox" name="c1" id="c1" value="App Development" class="big-checkbox form-check-input ">
-			<label for="c1" class="form-check-label"><h6>App Development</h6></label>
+			<label for="c1" class="form-check-label"><h5><b>App Development</b></h5></label>
 			
 		</div>
 		<div class="form-group form-check extra-fg">
 			<input type="checkbox" name="c2" id="c2" value="App Development with ASO" class="big-checkbox form-check-input">
-			<label for="c2" class="form-check"><h6>App Development with ASO</h6></label>
+			<label for="c2" class="form-check"><h5><b>App Development with ASO</b></h5></label>
 		</div>
 	</form>	
 </div>
@@ -59,6 +61,8 @@
 	<div class="md-form form-group mx-auto">
 		<i class="fa fa-file prefix"></i>
 	    <input class="form-control-file" type ="file" id="attach" name="attachment" placeholder="Upload relevant files" form="inquiry">
+	    <small id="fileHelp" class="form-text text-muted">Only .zip, .doc, .jpg, .png, .ppt, .pdf files are allowed</small>
+	      </div>
 	</div>
 </div>
 <br><br>
@@ -148,12 +152,12 @@
 	<form class="form-inline mx-auto" id="inquiry">
 		<div class="form-group form-check extra-fg">
 			<input type="radio" name="r1" id="c3" value="Fixed Price" class="big-checkbox form-check-input" form="inquiry">
-			<label for="c3" class="form-check-label"><h6>Fixed Price</h6></label>
+			<label for="c3" class="form-check-label"><h5><b>Fixed Price</b></h5></label>
 			
 		</div>
 		<div class="form-group form-check extra-fg">
 			<input type="radio" name="r1" id="c4" value="Hourly Based" class="big-checkbox form-check-input" form="inquiry">
-			<label for="c4" class="form-check"><h6>Hourly Based</h6></label>
+			<label for="c4" class="form-check"><h5><b>Hourly Based</b></h5></label>
 		</div>
 	</form>
 </div>
@@ -162,12 +166,12 @@
 	<form class="form-inline mx-auto" id="inquiry">
 		<div class="form-group form-check extra-fg">
 			<input type="radio" name="r1" id="c5" value="Hire Developer" class="big-checkbox form-check-input" form="inquiry">
-			<label for="c5" class="form-check-label"><h6>Hire Developer</h6></label>
+			<label for="c5" class="form-check-label"><h5><b>Hire Developer</b></h5></label>
 			
 		</div>
 		<div class="form-group form-check extra-fg">
 			<input type="radio" name="r1" id="c6" value="I'm not sure" class="big-checkbox form-check-input" form="inquiry">
-			<label for="c6" class="form-check"><h6>Not sure</h6></label>
+			<label for="c6" class="form-check"><h5><b>I'm Not sure</b></h5></label>
 		</div>
 	</form>
 </div>

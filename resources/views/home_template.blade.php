@@ -6,9 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta author="K.L.Bhanu Moorthy">
 
     <title>Apps Feel</title>
 
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
@@ -124,14 +126,14 @@
             </a>
             <div class="collapse navbar-collapse" id="navbarNav1">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Apps</a>
+                        <a class="nav-link" href="/inquiry">Inquiry</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Contact Us</a>
+                        <a class="nav-link" href="/Contact">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a href="/about" class="nav-link">About</a>
@@ -166,10 +168,7 @@
                 <!--First column-->
                 <div class="col-lg-3 offset-lg-1 hidden-lg-down">
                     <h5 class="title">ABOUT APPS INVENTORY</h5>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    quis nostrud exercitation </p>
+                    <p class="text-justify">We make almost all kind of apps you want with Uniqe design, Simple and easy interface and with eye catchy icons and app screenshots. We do ASO (app store optimization) of apps as well that helps to find your app on top at play store</p>
                 </div>
                 <!--/.First column-->
 
@@ -196,10 +195,9 @@
                 <div class="col-lg-2 col-md-4">
                     <h5 class="title">Follow Us on</h5>
                     <ul>
-                        <li><a href="#!">Facebook</a></li>
-                        <li><a href="#!">Instagram</a></li>
-                        <li><a href="#!">Twitter</a></li>
-                        <li><a href="#!">Pinterest</a></li>
+                        <li><a href="https://www.facebook.com/Appsinventroy/">Facebook</a></li>
+                        <li><a href="https://twitter.com/appsinventory">Twitter</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCej8GBC5_NjcqqCyN-bG22A">YouTube</a></li>
                     </ul>
                 </div>
                 <!--/.Fourth column-->
@@ -213,7 +211,7 @@
         <!--Copyright-->
         <div class="footer-copyright">
             <div class="container-fluid">
-                © 2015 Copyright: <a href="#" rel="nofollow"> Apps Inventory </a>
+                © 2017 Copyright: <a href="/" rel="nofollow"> Apps Inventory </a>
 
             </div>
         </div>
@@ -236,17 +234,6 @@
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
-
-    <script type="text/javascript">
-        $('.navbar-nav li').click(function(e) {
-            $('.navbar li.active').removeClass('active');
-            var $this = $(this);
-            if (!$this.hasClass('active')) {
-                $this.addClass('active');
-            }
-            e.preventDefault();
-        });
-    </script>
 
     <script type="text/javascript">
         $('.carousel').carousel({interval:2000});

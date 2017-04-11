@@ -6,20 +6,16 @@
 		<h3 class="display-3 mx-auto">About Us</h3>
 	</div>
 	<hr>
-	<div class="row">
-		<div class="col-lg-2"></div>
-		<div class="col-lg-8">
-			<p class="text-justify">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</div>
-		<div class="col-lg-2"></div>
+	<div class="row row-box flex-center view hm-black-strong">
+		{{-- <div class="mask flex-center"> --}}
+			<div class="col-lg-8">
+				<img src="images/about.jpg" class="img-fluid">
+			</div>	
+			<div class="col-lg-4">
+				<p class="text-justify lead black-text">
+					We make almost all kind of apps you want with Uniqe design, Simple and easy interface and with eye catchy icons and app screenshots. We do ASO (app store optimization) of apps as well that helps to find your app on top at play store
+				</p>
+			</div>
+		</div>	
 	</div>
-	<hr><hr>
-	<br>
 @stop
